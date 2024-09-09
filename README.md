@@ -1,23 +1,23 @@
 # LAMPSTACK
 
-![LAMP Stack Installer](https://img.shields.io/badge/LAMP-Stack-blue.svg) ![License](https://img.shields.io/github/license/brainhub24/LAMPSTACK) ![Version](https://img.shields.io/badge/version-1.3.0-green.svg)
+![LAMP Stack Installer](https://img.shields.io/badge/LAMP-Stack-blue.svg) ![License](https://img.shields.io/github/license/brainhub24/LAMPSTACK) ![Version](https://img.shields.io/badge/version-1.3.0-green.svg) ![About](https://img.shields.io/badge/Status-Unstable-red)
 
-A professional LAMP stack installer script for RedHat-based distributions like Rocky Linux, centos or what ever.
-This script helps you install a simple yet robust LAMP stack, including Apache or Nginx, MariaDB or PostgreSQL, PHP, SSL, and essential development tools.
-I built this for my PROXMOX enviroments...
+A professional installer script for deploying LAMP, LAPP, and LEMP stacks on RedHat-based distributions like Rocky Linux, CentOS, and others. This script simplifies the installation of a robust stack, allowing you to choose between Apache or Nginx for your web server, and between MariaDB or PostgreSQL for your database. Additionally, it configures PHP, SSL for secure connections, and essential development tools, making it a comprehensive solution for your development needs.
+
+I built this script specifically for my Proxmox environments, ensuring a seamless deployment process.
 
 ## Overview
 
 The `LAMPSTACK` script automates the installation and configuration of the following components:
 
-- **Web Server**: Apache or Nginx (user's choice)
-- **Database Server**: MariaDB or PostgreSQL (user's choice)
-- **PHP**: For dynamic websites
-- **SSL Configuration**: Automatic SSL via Let's Encrypt (optional)
-- **Development Tools**: Essential tools like Git, GCC, and Make
-- **Monitoring Tools**: Netdata for real-time system monitoring
-- **Security Tools**: Fail2Ban to protect SSH and web services
-- **Docker**: Optional installation for containerized applications
+- **Web Server**: Apache (LAMP) or Nginx (LEMP) based on user preference
+- **Database Server**: MariaDB (LAMP/LAPP) or PostgreSQL (LAPP/LEMP) based on user preference
+- **PHP**: For dynamic websites and applications
+- **SSL Configuration**: Automatic SSL setup via Let's Encrypt (optional)
+- **Development Tools**: Essential tools like Git, GCC, and Make for development environments
+- **Monitoring Tools**: Netdata for real-time system monitoring and performance insights
+- **Security Tools**: Fail2Ban to protect against brute-force attacks on SSH and web services
+- **Docker**: Optional installation for running containerized applications
 
 This script makes it easy to deploy a professional LAMP stack on a Rocky Linux container running in Proxmox or similar environments.
 
